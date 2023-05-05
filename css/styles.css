@@ -202,7 +202,7 @@ body {
 .features-title {
   flex-basis: calc((100% - 72px) / 4);
 }
-.title {
+.title-features {
   margin-bottom: 8px;
   font-style: normal;
   font-weight: 500;
