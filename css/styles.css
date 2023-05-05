@@ -142,6 +142,8 @@ body {
    max-width: 1440px;
    margin: auto;
    top: 72px;
+   padding-top: 188px;
+   padding-bottom: 188px;
 }
 .hero-container {
  
@@ -197,8 +199,11 @@ body {
   gap: 24px;
   padding-left: 0;
 }
+.features-title {
+  flex-basis: calc((100% - 72px) / 4);
+}
 .title {
-  width: calc((100%-72px) / 4);
+  margin-bottom: 8px;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -235,15 +240,28 @@ body {
   padding-left: 0;
 
 }
+.images {
+  flex-basis: calc((100% - 48px) / 3);
+  width: 360px;
+  height: 300px;
+}
 .img {
-  width: calc((100%-48px)/3);
-  max-width: 100%;
-  height: auto;
+  display: block;
+  border: 1px solid #E7E9FC;
 }
 .employee {
   background: var(--third-backgrround-color);
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.employee-title-list {
+  margin-bottom: 72px;
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--second-text-color);
 }
 .employee-title {
   margin-top: 0;
@@ -279,6 +297,8 @@ body {
 
 .employee-text {
   text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .footer {
   background-color: var(--secondary-background-color);
